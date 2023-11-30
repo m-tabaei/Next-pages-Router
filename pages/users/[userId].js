@@ -1,8 +1,8 @@
 import { useRouter } from "next/router";
 const USer = () => {
   const router = useRouter();
-  const id = router.query.userId
-  console.log(router)
+  const id = router.query.userId;
+  console.log(router);
   return (
     <>
       <h1>Users # {id}</h1>
